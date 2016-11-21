@@ -1,0 +1,32 @@
+{
+    "name": "gitbook-plugin-new-relic",
+    "description": "New Relic integration for your gitbook",
+    "main": "index.js",
+    "version": "1.0.0",
+    "engines": {
+        "gitbook": ">=2.5.1"
+    },
+    "homepage": "https://github.com/jribeiro/gitbook-plugin-new-relic",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jribeiro/gitbook-plugin-new-relic.git"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/jribeiro/gitbook-plugin-new-relic/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "licenseKey": {
+                "type": "string",
+                "title": "New Relic Licence Key",
+                "required": true
+            },
+            "applicationID": {
+                "type": "string",
+                "title": "New Relic Application ID",
+                "required": true
+            }
+        }
+    }
+}
